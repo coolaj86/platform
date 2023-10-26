@@ -87,7 +87,20 @@ this repository may be used on the following networks:
    yarn build
    yarn setup
    ```
-   
+
+## View Dashmate Help
+
+1. The help must be generated at the **package root**
+   ```bash
+   # run from ./platform/, NOT a subdirectory
+   yarn install
+   yarn build
+   ```
+2. The help cannot be viewed with `node`, you must use `yarn`
+   ```bash
+   yarn dashmate --help
+   ```
+
 ## Run & Test
 
 **Important**: Running a dev environment requires a **non-trivial amount of system resources**. \
